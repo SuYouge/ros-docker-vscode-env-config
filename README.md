@@ -5,13 +5,19 @@
 
 get this script and run  
 
-`cp ./vscode-config/* ./your_catkin_ws/ `  
+`cp -r ./vscode-config/. /your_catkin_ws`  
+
+![](./img/cp-r-command.png)
 
 then launch docker env with ros  
+
+![](./img/vscode-launch.png)
 
 after docker init in vscode   
 
 then run `./script/open.sh` in ubuntu terminal to attach vscode docker   
+
+![](./img/open-sh.png)
 
 
 ## update ros images
